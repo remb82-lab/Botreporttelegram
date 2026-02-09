@@ -1,0 +1,18 @@
+
+TELEGRAM_BOT_TOKEN=ваш_бот_токен_от_BotFather
+TELEGRAM_ADMIN_CHAT_ID=ваш_chat_id_администратора
+TELEGRAM_CHANNEL_ID=@ваш_канал_для_отчетов
+
+# Email
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=ваш_email@gmail.com
+SMTP_PASSWORD=ваш_пароль_приложения
+EMAIL_RECIPIENT=администратор@company.com
+
+# Database (опционально)
+MONGODB_URI=mongodb://localhost:27017/reports_bot
+
+# Server
+PORT=3000
+NODE_ENV=development
